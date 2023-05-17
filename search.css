@@ -1,0 +1,168 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.overall {
+  background-color: rgba(248, 249, 251, 255);
+  background-size: cover;
+  height: 90vh;
+}
+
+.first_section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .top {
+    width: 90vw;
+} */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 94vw;
+  position: relative;
+  left: 50px;
+}
+
+.imgh img {
+    height: 7vh;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+form input {
+  width: 500px;
+  height: 40px;
+  background-color: #f8f9fb;
+  border: 1px solid #635d5d;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  outline: none;
+}
+
+form i {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.circle {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.text {
+  margin-left: 5px;
+  margin-bottom: -24px;
+  text-size-adjust: 30px;
+  color: white;
+}
+
+.circle2 {
+  background-color: rgba(159, 54, 236, 255);
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 2px;
+  left: 19px;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 7vh;
+  background-color: rgba(255, 255, 255, 255);
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  width: 69vw;
+  position: relative;
+  left: 320px;
+}
+
+.details a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.third {
+  height: 35vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.head1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgba(255, 255, 255, 255);
+  /* align-items: center; */
+  height: 25vh;
+  width: 25vw;
+  position: relative;
+  top: 70px;
+  left: 100px;
+  text-align: start;
+}
+
+.text1 {
+  line-height: 30px;
+  position: relative;
+  left: 20px;
+  font-size: 18px;
+}
+
+.text1 h1 {
+  font-size: 28px;
+}
+
+.img {
+  height: 26vh;
+  width: 1vw;
+}
+
+.img img {
+  height: 63vh;
+  width: 30vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 92vw;
+  position: relative;
+  left: 80px;
+  height: 8vh;
+}
+
+footer h1 {
+  position: relative;
+  top: 25px;
+  font-size: 30px;
+}
+
+footer a {
+  position: relative;
+  top: 25px;
+  font-weight: bold;
+}
