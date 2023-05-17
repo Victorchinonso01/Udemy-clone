@@ -6,54 +6,38 @@
 .overall {
   background-color: rgba(248, 249, 251, 255);
   background-size: cover;
-  height: 90vh;
+  height: 85vh;
 }
-
-.first_section {
-  display: flex;
-  flex-direction: column;
-}
-
-/* .top {
-    width: 90vw;
-} */
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 94vw;
-  position: relative;
-  left: 50px;
+  height: 10vh;
 }
 
-.imgh img {
-    height: 7vh;
+header img {
+  height: 5vh;
 }
 
 header a {
   text-decoration: none;
   color: black;
-  font-weight: normal;
+  font-size: 20px;
 }
 
 form input {
-  width: 500px;
-  height: 40px;
+  width: 35vw;
+  height: 2.5vw;
   background-color: #f8f9fb;
   border: 1px solid #635d5d;
   border-radius: 30px;
-  display: flex;
-  align-items: center;
   padding-left: 50px;
-  outline: none;
 }
 
 form i {
-  position: absolute;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-left: 10px;
+  position: relative;
+  left: 30px;
 }
 
 .circle {
@@ -83,6 +67,7 @@ form i {
 .middle {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   height: 7vh;
   background-color: rgba(255, 255, 255, 255);
@@ -91,78 +76,76 @@ form i {
 .details {
   display: flex;
   justify-content: space-around;
-  width: 69vw;
-  position: relative;
-  left: 320px;
+  width: 87vw;
 }
 
 .details a {
   text-decoration: none;
   color: black;
-  font-weight: normal;
+  font-size: larger;
 }
 
 .third {
-  height: 35vh;
-  width: 70vw;
   display: flex;
   justify-content: space-around;
+  height: 78vh;
   align-items: center;
 }
 
 .head1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: rgba(255, 255, 255, 255);
-  /* align-items: center; */
   height: 25vh;
   width: 25vw;
   position: relative;
-  top: 70px;
-  left: 100px;
-  text-align: start;
+  right: 50px;
+  bottom: 90px;
 }
 
 .text1 {
-  line-height: 30px;
-  position: relative;
-  left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 25px;
   font-size: 18px;
-}
+  line-height: 33px;
 
+
+}
 .text1 h1 {
+  font-weight: bolder;
   font-size: 28px;
 }
 
-.img {
-  height: 26vh;
-  width: 1vw;
+.text1 p {
 }
 
-.img img {
-  height: 63vh;
-  width: 30vw;
+.imgh {
+  width: 39vw;
+}
+
+.imgh img {
+  width: 33vw;
+  height: 58vh;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  width: 92vw;
+  width: 97vw;
   position: relative;
-  left: 80px;
+  left: 20px;
   height: 8vh;
 }
 
 footer h1 {
   position: relative;
-  top: 25px;
+  top: 40px;
   font-size: 30px;
 }
 
 footer a {
   position: relative;
-  top: 25px;
+  top: 40px;
   font-weight: bold;
 }
